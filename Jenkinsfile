@@ -17,7 +17,7 @@ pipeline {
     
     post {
         success {
-            echo 'Build successful! Your code is compiled.'
+            echo 'Build successful! Code is compiled.'
         }
         failure {
             echo 'Build failed! Compilation errors occurred.'
