@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'your_git_repository_url'
+                git 'https://github.com/rgvkrushnan/docker-jenkins-integration-assignment.git'
             }
         }
 
